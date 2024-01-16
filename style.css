@@ -301,7 +301,7 @@ html{
 }
 @keyframes React {
     0%{width: 0%;}
-    100%{width: 10%;}
+    100%{width: 20%;}
 }
 .skills .skill .Comunicación{
     width: 0%;
