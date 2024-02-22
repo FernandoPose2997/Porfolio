@@ -1,373 +1,452 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <!-- MENU ENCABEZADO -->
     <div class="contenedor-header">
-        <header>
-            <div class="logo">
-                <a href="#Fernado">Fernando</a>
-            </div>
-            <nav id="nav">
-                <ul>
-                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
-                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
-                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
-                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
-                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
-                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
-                </ul>
-            </nav>
-            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
-                 <i class="fa-solid fa-bars"></i>
-            </div>     
-        </header>
-    </div>   
+      <header>
+        <div class="logo">
+          <a href="#Fernado">Fernando</a>
+        </div>
+        <nav id="nav">
+          <ul>
+            <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+            <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+            <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+            <li>
+              <a href="#curriculum" onclick="seleccionar()">CURRICULUM</a>
+            </li>
+            <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+            <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+          </ul>
+        </nav>
+        <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </header>
+    </div>
     <!-- SECCION INICIO -->
     <section id="inicio" class="inicio">
-        <div class="contenido-banner">
-            <div class="contenedor-img">
-                <img src="fotos/fer portfolio.png" alt="">
-            </div>
-            <h1>Fernando Pose</h1>
-            <h2>Desarrollador Web</h2>
-            <div class="redes">
-                <a href="https://www.facebook.com/fernando.pose.18" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                <a href="https://www.linkedin.com/in/fernando-pose-3aa13b287/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://github.com/FernandoPose2997" target="_blank"><i class="fa-brands fa-github"></i></a>
-            </div>
+      <div class="contenido-banner">
+        <div class="contenedor-img">
+          <img src="fotos/fer portfolio.png" alt="" />
         </div>
+        <h1>Fernando Pose</h1>
+        <h2>Desarrollador Web</h2>
+        <div class="redes">
+          <a href="https://www.facebook.com/fernando.pose.18" target="_blank"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/fernando-pose-3aa13b287/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/FernandoPose2997" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+      </div>
     </section>
     <!-- SECCION SOBRE MI -->
     <section id="sobremi" class="sobremi">
-        <div class="contenido-seccion">
-            <h2>Sobre Mí</h2>
-            <p><span>Hola, soy Fernando Pose</span>"Soy un profesional versátil y apasionado con un historial de éxito en diversos campos. Mi ética laboral sólida se combina con una actitud proactiva y la habilidad de aprender rápidamente. Mi capacidad para comunicarme efectivamente y trabajar en equipo me ha permitido colaborar con éxito en entornos multifuncionales. Estoy comprometido con el crecimiento profesional continuo y la búsqueda constante de oportunidades para impulsar resultados excepcionales. Mi objetivo es aplicar mi experiencia y energía para contribuir al éxito de cualquier proyecto o empresa en la que participe, fomentando la innovación y la excelencia en cada paso.</p>
+      <div class="contenido-seccion">
+        <h2>Sobre Mí</h2>
+        <p>
+          <span>Hola, soy Fernando Pose</span>"Soy un profesional versátil y
+          apasionado con un historial de éxito en diversos campos. Mi ética
+          laboral sólida se combina con una actitud proactiva y la habilidad de
+          aprender rápidamente. Mi capacidad para comunicarme efectivamente y
+          trabajar en equipo me ha permitido colaborar con éxito en entornos
+          multifuncionales. Estoy comprometido con el crecimiento profesional
+          continuo y la búsqueda constante de oportunidades para impulsar
+          resultados excepcionales. Mi objetivo es aplicar mi experiencia y
+          energía para contribuir al éxito de cualquier proyecto o empresa en la
+          que participe, fomentando la innovación y la excelencia en cada paso.
+        </p>
 
-            <div class="fila">
-                <!-- datos personales -->
-                <div class="col">
-                    <h3>Datos Personales</h3>
-                    <ul>
-                        <li>
-                            <strong>Fecha de nacimineto</strong>
-                            02-09-1997
-                        </li>
-                        <li>
-                            <strong>Celular de contacto</strong>
-                            (+598)097533229
-                        </li>
-                        <li>
-                            <strong>Email</strong>
-                            pablopose7@gmail.com
-                        </li>
-                        <li>
-                            <strong>Direccion</strong>
-                            Elbio Dodera, Montevideo, Uruguay
-                        </li>
-                        <li>
-                            <strong>Direccion</strong>
-                            Cotagaita, Buenos Aires, Argentina
-                        </li>
-                        <li>
-                            <strong>Cargo Actual</strong>
-                            <span>Gestor inmobiliario</span>
-                        </li>
-                    </ul>
-                </div>
-                <!-- intereses -->
-                <div class="col">
-                    <h3>Intereses</h3>
-                    <div class="contenedor-intereses">
-                        <div class="intereses">
-                            <i class="fa-solid fa-gamepad"></i>
-                            <span>JUEGOS</span>
-                        </div>
-                        <div class="intereses">
-                            <i class="fa-solid fa-desktop"></i>
-                            <span>PROGRAMACION</span>
-                        </div>
-                        <div class="intereses">
-                            <i class="fa-solid fa-headphones"></i>
-                            <span>MUSICA</span>
-                        </div>
-                        <div class="intereses">
-                            <i class="fa-solid fa-plane"></i>
-                            <span>VIAJES</span>
-                        </div>
-                        <div class="intereses">
-                            <i class="fa-solid fa-person-swimming"></i>
-                            <span>NATACION</span>
-                        </div>
-                        <div class="intereses">
-                            <i class="fa-solid fa-bowl-food"></i>
-                            <span>GASTRONOMIA</span>
-                        </div>
-                        <div class="intereses">
-                            <i class="fa-solid fa-umbrella-beach"></i>
-                            <span>PLAYAS</span>
-                        </div>
-                    </div>
-                </div>
+        <div class="fila">
+          <!-- datos personales -->
+          <div class="col">
+            <h3>Datos Personales</h3>
+            <ul>
+              <li>
+                <strong>Fecha de nacimineto</strong>
+                02-09-1997
+              </li>
+              <li>
+                <strong>Celular de contacto</strong>
+                (+598)097533229
+              </li>
+              <li>
+                <strong>Email</strong>
+                pablopose7@gmail.com
+              </li>
+              <li>
+                <strong>Direccion</strong>
+                Elbio Dodera, Montevideo, Uruguay
+              </li>
+              <li>
+                <strong>Direccion</strong>
+                Cotagaita, Buenos Aires, Argentina
+              </li>
+              <li>
+                <strong>Cargo Actual</strong>
+                <span>Gestor inmobiliario</span>
+              </li>
+            </ul>
+          </div>
+          <!-- intereses -->
+          <div class="col">
+            <h3>Intereses</h3>
+            <div class="contenedor-intereses">
+              <div class="intereses">
+                <i class="fa-solid fa-gamepad"></i>
+                <span>JUEGOS</span>
+              </div>
+              <div class="intereses">
+                <i class="fa-solid fa-desktop"></i>
+                <span>PROGRAMACION</span>
+              </div>
+              <div class="intereses">
+                <i class="fa-solid fa-headphones"></i>
+                <span>MUSICA</span>
+              </div>
+              <div class="intereses">
+                <i class="fa-solid fa-plane"></i>
+                <span>VIAJES</span>
+              </div>
+              <div class="intereses">
+                <i class="fa-solid fa-person-swimming"></i>
+                <span>NATACION</span>
+              </div>
+              <div class="intereses">
+                <i class="fa-solid fa-bowl-food"></i>
+                <span>GASTRONOMIA</span>
+              </div>
+              <div class="intereses">
+                <i class="fa-solid fa-umbrella-beach"></i>
+                <span>PLAYAS</span>
+              </div>
             </div>
-            <button>
-                Descargar CV <i class="fa-solid fa-download"></i>
-                <span class="cubrir"></span> 
-            </button>
+          </div>
         </div>
+        <button>
+          Descargar CV <i class="fa-solid fa-download"></i>
+          <span class="cubrir"></span>
+        </button>
+      </div>
     </section>
     <!-- SECCION  SKILLS-->
     <section class="skills" id="skills">
-        <div class="contenido-seccion">
-            <h2>Skills</h2>
-            <div class="fila">
-                <!-- habilidades tecnicas -->
-                <div class="col">
-                    <h3>Habilidades Técnicas</h3>
-                    <div class="skill">
-                        <span>JavaScript</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>50%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span> HTML Y CSS</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>75%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Wordpress</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>90%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>React</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>20%</span>
-                            </div>
-                        </div>
-                    </div>
+      <div class="contenido-seccion">
+        <h2>Skills</h2>
+        <div class="fila">
+          <!-- habilidades tecnicas -->
+          <div class="col">
+            <h3>Habilidades Técnicas</h3>
+            <div class="skill">
+              <span>JavaScript</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>50%</span>
                 </div>
-                <!-- Habilidades profesionales -->
-                <div class="col">
-                    <h3>Habilidades Profesionales</h3>
-                    <div class="skill">
-                        <span>Comunicación</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>80%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Trabajo en equipo</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>95%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Liderazgo</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>70%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Dedicación</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>95%</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
+            <div class="skill">
+              <span> HTML Y CSS</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>75%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Wordpress</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>90%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>React</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>20%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Habilidades profesionales -->
+          <div class="col">
+            <h3>Habilidades Profesionales</h3>
+            <div class="skill">
+              <span>Comunicación</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>80%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Trabajo en equipo</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>95%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Liderazgo</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>70%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Dedicación</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>95%</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- SECCION CV -->
     <section id="curriculum" class="curriculum">
-        <div class="contenido-seccion">
-            <h2>Curriculum</h2>
-            <div class="fila">
-                <div class="col izquierda">
-                    <h3>Estudios</h3>
-                    <div class="item izq">
-                        <h4>Tecnico en Gerencia Comercial</h4>
-                        <span class="casa">Universidad ORT</span>
-                        <span class="fecha">2017-2020</span>
-                        <P>Esta carrera me brindo las capacidades de diseñar y ejecutar estategias de ventas y lideracion de equipos en el entorno físico y digital, brindandome conocimientos fundamentales como administración, marketing. e-commerce, gestion de la experiencia del cliente, capital humano, negociación, ventas y trabajo en equipo entre otras</P>
-                        <div class="conectori">
-                            <div class="circuloi"></div>
-                        </div>
-                    </div>
-                    <div class="item izq">
-                        <h4>Certificacion Google HTML Y CSS</h4>
-                        <span class="casa">Universidad de Alicante y Google</span>
-                        <span class="fecha">2022-2022</span>
-                        <P>Aporto el conocimiento basico para la creacion páginas web profesionales adaptables, la capacidad del manejo de HTML5 y CCS</P>
-                        <div class="conectori">
-                            <div class="circuloi"></div>
-                        </div>
-                    </div>
-                    <div class="item izq">
-                        <h4>JavaScript moderno</h4>
-                        <span class="casa">UDEMY</span>
-                        <span class="fecha">2023-Actualidad</span>
-                        <P>El curso de JavaScript me brindo conocimientos tales como el uso de REST APIS con JSON y Fetch API, Ansync Await, los conceptos de ES6 y Prototypes ES5, Iteradores, Arrow Functions, Promises, Callbacks y más</P>
-                        <div class="conectori">
-                            <div class="circuloi"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col derecha">
-                    <h3>Experiencia Laboral</h3>
-                    <div class="item der">
-                        <h4>Gestor Inmobiliario</h4>
-                        <span class="casa">P&P Inmobiliaria</span>
-                        <span class="fecha">2022-2023</span>
-                        <P>administracion de propiedades, manejo de cartera de clientes, ventas, elaboracion de contratos y manejo de redes de la empresa</P>
-                        <div class="conectord">
-                            <div class="circulod"></div>
-                        </div>
-                    </div>
-                    <div class="item der">
-                        <h4>Gerente</h4>
-                        <span class="casa">Del Palacio</span>
-                        <span class="fecha">2018-2022</span>
-                        <P>Gerencia y manejo del local, administracion de sus recursos, capital, liderazgo de equipo y capital humano y gestion de experiencia al cliente</P>
-                        <div class="conectord">
-                            <div class="circulod"></div>
-                        </div>
-                    </div>
-                    <div class="item der">
-                        <h4>Vendedor y Encargado de local</h4>
-                        <span class="casa">Sana Tentacion</span>
-                        <span class="fecha">2017-20</span>
-                        <P>Atencion al cliente, ventas, cobranzas, atencion a proveedores y planificacion semanal</P>
-                        <div class="conectord">
-                            <div class="circulod"></div>
-                        </div>
-                    </div>
-                </div>
+      <div class="contenido-seccion">
+        <h2>Curriculum</h2>
+        <div class="fila">
+          <div class="col izquierda">
+            <h3>Estudios</h3>
+            <div class="item izq">
+              <h4>Tecnico en Gerencia Comercial</h4>
+              <span class="casa">Universidad ORT</span>
+              <span class="fecha">2017-2020</span>
+              <p>
+                Esta carrera me brindo las capacidades de diseñar y ejecutar
+                estategias de ventas y lideracion de equipos en el entorno
+                físico y digital, brindandome conocimientos fundamentales como
+                administración, marketing. e-commerce, gestion de la experiencia
+                del cliente, capital humano, negociación, ventas y trabajo en
+                equipo entre otras
+              </p>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
             </div>
+            <div class="item izq">
+              <h4>Certificacion Google HTML Y CSS</h4>
+              <span class="casa">Universidad de Alicante y Google</span>
+              <span class="fecha">2022-2022</span>
+              <p>
+                Aporto el conocimiento basico para la creacion páginas web
+                profesionales adaptables, la capacidad del manejo de HTML5 y CCS
+              </p>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>JavaScript moderno</h4>
+              <span class="casa">UDEMY</span>
+              <span class="fecha">2023-Actualidad</span>
+              <p>
+                El curso de JavaScript me brindo conocimientos tales como el uso
+                de REST APIS con JSON y Fetch API, Ansync Await, los conceptos
+                de ES6 y Prototypes ES5, Iteradores, Arrow Functions, Promises,
+                Callbacks y más
+              </p>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col derecha">
+            <h3>Experiencia Laboral</h3>
+            <div class="item der">
+              <h4>Gestor Inmobiliario</h4>
+              <span class="casa">P&P Inmobiliaria</span>
+              <span class="fecha">2022-2023</span>
+              <p>
+                administracion de propiedades, manejo de cartera de clientes,
+                ventas, elaboracion de contratos y manejo de redes de la empresa
+              </p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Gerente</h4>
+              <span class="casa">Del Palacio</span>
+              <span class="fecha">2018-2022</span>
+              <p>
+                Gerencia y manejo del local, administracion de sus recursos,
+                capital, liderazgo de equipo y capital humano y gestion de
+                experiencia al cliente
+              </p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Vendedor y Encargado de local</h4>
+              <span class="casa">Sana Tentacion</span>
+              <span class="fecha">2017-20</span>
+              <p>
+                Atencion al cliente, ventas, cobranzas, atencion a proveedores y
+                planificacion semanal
+              </p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- SECCION PORTFOLIO -->
     <section id="portfolio" class="portfolio">
-        <div class="contenido-seccion">
-            <h2>PORTFOLIO</h2>
-            <div class="galeria">
-                <div class="proyecto">
-                   <a href="https://inmobiliariapyp.netlify.app/" target="_blank"> 
-                    <img src="fotos/cup-of-coffee-g4afa34d1c_1280.jpg" alt="">
-                    <div class="cubierta">
-                        <h3>Web de Inmobiliara P&P</h3>
-                        <p>Creacion de web inmobiliaria funcional con HTML CSS Y JS</p>
-                    </div>
-                </a> 
-                </div>
-                <div class="proyecto">
-                    <a href="https://github.com/FernandoPose2997/Proyectos-Practica" target="_blank">    
-                    <img src="fotos/lightbulb-g3494b6a84_1280.jpg" alt="">
-                        <div class="cubierta">
-                            <h3>GitHub personal</h3>
-                            <p>Proyectos realizados de practica personales y en cursos.</p>
-                        </div>
-                    </a>  
-                </div>
-                <div class="proyecto">
-                    <a href="#inicio">  
-                      <img src="fotos/office-gff2359b67_1280.jpg" alt="">
-                      <div class="cubierta">
-                          <h3>En desarrollo</h3>
-                          <p>Proyectos personales y laborales futuros...</p>
-                      </div>
-                  </a> 
-                  </div>
-            </div>
+      <div class="contenido-seccion">
+        <h2>PORTFOLIO</h2>
+        <div class="galeria">
+          <div class="proyecto">
+            <a href="https://inmobiliariapyp.netlify.app/" target="_blank">
+              <img src="fotos/cup-of-coffee-g4afa34d1c_1280.jpg" alt="" />
+              <div class="cubierta">
+                <h3>Web de Inmobiliara P&P</h3>
+                <p>Creacion de web inmobiliaria funcional con HTML CSS Y JS</p>
+              </div>
+            </a>
+          </div>
+          <div class="proyecto">
+            <a
+              href="https://github.com/FernandoPose2997/Proyectos-Practica"
+              target="_blank"
+            >
+              <img src="fotos/lightbulb-g3494b6a84_1280.jpg" alt="" />
+              <div class="cubierta">
+                <h3>GitHub personal</h3>
+                <p>Proyectos realizados de practica personales y en cursos.</p>
+              </div>
+            </a>
+          </div>
+          <div class="proyecto">
+            <a href="#inicio">
+              <img src="fotos/office-gff2359b67_1280.jpg" alt="" />
+              <div class="cubierta">
+                <h3>En desarrollo</h3>
+                <p>Proyectos personales y laborales futuros...</p>
+              </div>
+            </a>
+          </div>
         </div>
+      </div>
     </section>
     <!-- SECCION DE CONTACTO -->
     <section id="contacto" class="contacto">
-        <div class="contenido-seccion">
-            <h2>CONTACTO</h2>
-            <div class="fila">
-                <!-- FORMULARIO -->
-                <div class="col">
-                    <input type="text" placeholder="Nombre y Apellido">
-                    <input type="text" placeholder="Telefono">
-                    <input type="text" placeholder="Correo/Mail">
-                    <input type="text" placeholder="Tema">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                    <button>
-                        Enviar Mensaje <i class="fa-regular fa-paper-plane"></i>
-                        <span class="cubierta"></span>
-                    </button>
-                </div>
-                <!-- Mapa -->
-                <div class="col">
-                    <img src="/fotos/direcion arg.png" alt="">
-                    <div class="info">
-                        <ul>
-                            <li>
-                                <i class="fa-solid fa-location-dot"></i>
-                                Elbio Dodera, Montevideo, Uruguay
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-location-dot"></i>
-                                Cotagaita, Buenos Aires, Argentina
-                            </li>
-                        </ul>
-                        <ul>
-                            <li>
-                                <i class="fa-solid fa-mobile-screen"></i>
-                                Contactame:(+598)97533229
-                            </li>
-                        </ul>
-                        <ul>
-                            <li>
-                                <i class="fa-solid fa-envelope"></i>
-                                Correo: pablopose7@gmail.com
-                            </li>
-                        </ul>
-                    </div>
-                </div>  
+      <div class="contenido-seccion">
+        <h2>CONTACTO</h2>
+        <div class="fila">
+          <!-- FORMULARIO -->
+          <form
+            class="col"
+            action="https://formsubmit.co/5e350f2ecec739aa7f8b1783522e544f"
+            method="POST"
+          >
+            <input type="text" placeholder="Nombre y Apellido" required />
+            <input type="number" placeholder="Telefono" required />
+            <input type="email" placeholder="Correo/Mail" required />
+            <input type="text" placeholder="Tema" required />
+            <input type="hidden" name="_captcha" value="false" />
+            <input
+              type="hidden"
+              name="_next"
+              value="https://fernando-pose-portfolio.netlify.app/"
+            />
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Mensaje"
+            ></textarea>
+            <button type="submit">
+              Enviar Mensaje <i class="fa-regular fa-paper-plane"></i>
+              <span class="cubierta"></span>
+            </button>
+          </form>
+          <!-- Mapa -->
+          <div class="col">
+            <img src="/fotos/direcion arg.png" alt="" />
+            <div class="info">
+              <ul>
+                <li>
+                  <i class="fa-solid fa-location-dot"></i>
+                  Elbio Dodera, Montevideo, Uruguay
+                </li>
+                <li>
+                  <i class="fa-solid fa-location-dot"></i>
+                  Cotagaita, Buenos Aires, Argentina
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <i class="fa-solid fa-mobile-screen"></i>
+                  Contactame:(+598)97533229
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <i class="fa-solid fa-envelope"></i>
+                  Correo: pablopose7@gmail.com
+                </li>
+              </ul>
             </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- FOOTER -->
     <footer>
-        <a href="#inicio" class="arriba">
-            <i class="fa-solid fa-angles-up"></i>
-        </a>
-        <div class="redes">
-            <a href="https://www.facebook.com/fernando.pose.18" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-            <a href="https://www.linkedin.com/in/fernando-pose-3aa13b287/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://github.com/FernandoPose2997" target="_blank"><i class="fa-brands fa-github"></i></a>
-        </div>
+      <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angles-up"></i>
+      </a>
+      <div class="redes">
+        <a href="https://www.facebook.com/fernando.pose.18" target="_blank"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/fernando-pose-3aa13b287/"
+          target="_blank"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/FernandoPose2997" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+      </div>
     </footer>
     <script src="config.js"></script>
-</body>
+  </body>
 </html>
