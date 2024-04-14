@@ -724,6 +724,9 @@ footer .arriba {
   .contacto .fila .col {
     width: 100%;
   }
+  .contacto .info {
+    margin-top: 150px;
+  }
 }
 
 input[type="number"]::-webkit-inner-spin-button,
