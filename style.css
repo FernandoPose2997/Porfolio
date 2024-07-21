@@ -214,6 +214,11 @@ html {
 .sobremi button:hover .cubrir {
   width: 100%;
 }
+.CV {
+  text-decoration: none;
+  color: white;
+}
+
 /*Seccion  SKILSS*/
 .skills {
   background-color: #252a2e;
