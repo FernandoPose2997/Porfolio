@@ -735,6 +735,9 @@ footer .arriba {
   }
 }
 @media screen and (max-width: 700px) {
+  * {
+    overflow-x: hidden;
+  }
   .sobremi .fila {
     display: block;
   }
@@ -759,7 +762,7 @@ footer .arriba {
   .curriculum .fila .derecha {
     margin-left: 20px;
   }
-  .portfolio .galeria {
+  /* .portfolio .galeria {
     display: block;
     width: 100%;
   }
@@ -768,7 +771,7 @@ footer .arriba {
   }
   .portfolio .galeria .proyecto img {
     width: 100%;
-  }
+  } */
   .contacto .fila {
     display: block;
   }
@@ -777,6 +780,48 @@ footer .arriba {
   }
   .contacto .info {
     margin-top: 150px;
+  }
+
+  /*Efectos slider responsive*/
+  .portfolio .galeria {
+    width: 100%;
+  }
+
+  .portfolio .contenido-seccion {
+    width: auto;
+    animation: scroll 20s linear infinite;
+    -webkit-animation: scroll 20s linear infinite;
+  }
+
+  @keyframes contenido-seccion {
+    0% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+  }
+  .portfolio .galeria {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .portfolio .galeria .proyecto {
+    width: 400px;
+    margin: 10px 0;
+  }
+
+  .portfolio .galeria .proyecto img {
+    max-width: 400px;
+    height: auto;
+  }
+
+  .portfolio .galeria .proyecto .cubierta {
+    font-size: 14px;
+    letter-spacing: 1px;
   }
 }
 
