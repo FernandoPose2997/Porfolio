@@ -735,14 +735,14 @@ footer .arriba {
   }
 }
 @media screen and (max-width: 700px) {
-  * {
-    overflow-x: hidden;
-  }
   .sobremi .fila {
     display: block;
   }
   .sobremi .fila .col {
     width: fit-content;
+  }
+  .sobremi .fila .col .contenedor-intereses {
+    justify-content: center;
   }
   .skills .fila {
     display: block;
@@ -783,6 +783,10 @@ footer .arriba {
   }
 
   /*Efectos slider responsive*/
+  .portfolio {
+    overflow-x: hidden;
+  }
+
   .portfolio .galeria {
     width: 100%;
   }
