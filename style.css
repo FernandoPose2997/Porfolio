@@ -115,60 +115,74 @@ html {
 }
 
 .sobremi {
+  position: relative;
   background-color: #1e2326;
   color: white;
   padding: 50px 20px;
+  z-index: 2;
 }
 .sobremi .contenido-seccion {
   max-width: 1100px;
   margin: auto;
+  z-index: 2;
 }
 .sobremi h2 {
   font-size: 48px;
   font-family: "Righteous";
   text-align: center;
   padding: 20px 0;
+  z-index: 2;
 }
 .sobremi .contenido-seccion p {
   font: 10px;
   line-height: 22px;
   margin-bottom: 20px;
+  z-index: 2;
 }
 .sobremi .contenido-seccion p span {
   color: #009975;
   font-weight: bold;
+  z-index: 2;
 }
 .sobremi .fila {
   display: flex;
+  z-index: 2;
 }
 .sobremi .fila .col {
   width: 50%;
+  z-index: 2;
 }
 .sobremi .fila .col h3 {
   font-size: 28px;
   font-family: "Righteous";
   margin-bottom: 25px;
+  z-index: 2;
 }
 .sobremi .fila .col ul {
   list-style: none;
+  z-index: 2;
 }
 .sobremi .fila .col ul li {
   margin: 12px 0;
+  z-index: 2;
 }
 .sobremi .fila .col ul li strong {
   display: inline-block;
   color: #009975;
   width: 120px;
+  z-index: 2;
 }
 .sobremi .fila .col ul li span {
   background-color: #009975;
   padding: 3px;
   font-weight: bold;
   border-radius: 5px;
+  z-index: 2;
 }
 .sobremi .fila .col .contenedor-intereses {
   display: flex;
   flex-wrap: wrap;
+  z-index: 2;
 }
 .sobremi .fila .col .contenedor-intereses .intereses {
   width: 125px;
@@ -181,14 +195,17 @@ html {
   align-items: center;
   justify-content: center;
   transition: 0.5s;
+  z-index: 2;
 }
 .sobremi .fila .col .contenedor-intereses .intereses:hover {
   background-color: #009975;
+  z-index: 2;
 }
 /* itera sobre las letras y/o contenido de las cajas con i */
 .sobremi .fila .col .contenedor-intereses .intereses i {
   font-size: 30px;
   margin-bottom: 10px;
+  z-index: 2;
 }
 .sobremi button {
   cursor: pointer;
@@ -210,15 +227,22 @@ html {
   width: 0;
   height: 100%;
   background-color: #009975;
-  z-index: -1; /*superpone el texto al background a la actividad del raton*/
+  z-index: 0;
   transition: 1s;
 }
+
 .sobremi button:hover .cubrir {
   width: 100%;
+  z-index: 1;
 }
 .CV {
   text-decoration: none;
   color: white;
+}
+
+.contenido-texto {
+  position: relative;
+  z-index: 99;
 }
 
 /*Seccion  SKILSS*/
@@ -590,7 +614,7 @@ html {
 }
 /*SECCION DE CONTACTO*/
 .contacto {
-  background-color: #1e2326;
+  position: relative;
   color: white;
   padding: 50px 0;
 }
@@ -676,7 +700,7 @@ html {
   max-width: 100%;
 }
 footer {
-  background-color: #252a2e;
+  background-color: #0d0d0e;
   color: white;
   padding: 50px 0 30px 0;
   text-align: center;
@@ -690,7 +714,7 @@ footer .redes a {
   color: #fff;
   display: inline-block;
   text-decoration: none;
-  border: 1px solid white;
+  border: 1px solid #009975;
   border-radius: 100%;
   width: 42px;
   height: 42px;
@@ -701,8 +725,10 @@ footer .redes a {
 }
 footer .redes a:hover {
   background-color: #009975;
+  border: 1px solid white;
 }
 footer .arriba {
+  color: black;
   display: block;
   width: 50px;
   height: 50px;
@@ -715,6 +741,13 @@ footer .arriba {
   line-height: 50px;
   font-size: 16px;
 }
+
+footer .arriba:hover {
+  color: #009975;
+  background-color: black;
+  border: 1px solid #009975;
+}
+
 /*Seccion responsive*/
 @media screen and (max-width: 980px) {
   nav {
@@ -839,4 +872,20 @@ input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.contenido-seccion {
+  position: relative;
+  z-index: 1;
+  color: white;
 }
