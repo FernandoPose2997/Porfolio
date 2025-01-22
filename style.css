@@ -524,9 +524,9 @@ html {
 .portfolio .contenido-seccion {
   min-width: 4000px;
   margin: auto;
-  animation: scroll 30.5s linear infinite;
-  -webkit-animation: scroll 30.5s linear infinite;
-  width: calc(400px * 8);
+  animation: scroll 30s linear infinite;
+  -webkit-animation: scroll 30s linear infinite;
+  width: calc(400px * 20);
   justify-content: space-between;
 }
 
@@ -537,8 +537,8 @@ html {
   }
 
   100% {
-    -webkit-trasnform: translateX(calc(-200px * 10));
-    transform: translateX(calc(-200px * 10));
+    -webkit-trasnform: translateX(calc(-200px * 20));
+    transform: translateX(calc(-200px * 20));
   }
 }
 .portfolio h2 {
