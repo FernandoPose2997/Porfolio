@@ -524,9 +524,9 @@ html {
 .portfolio .contenido-seccion {
   min-width: 4000px;
   margin: auto;
-  animation: scroll 20s linear infinite;
-  -webkit-animation: scroll 20s linear infinite;
-  width: calc(400px * 10);
+  animation: scroll 30.5s linear infinite;
+  -webkit-animation: scroll 30.5s linear infinite;
+  width: calc(400px * 8);
   justify-content: space-between;
 }
 
